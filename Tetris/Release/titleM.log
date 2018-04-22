@@ -1,0 +1,807 @@
+﻿  AttackState.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  Charcter.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(63): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(64): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(102): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(103): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(132): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(133): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(163): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(250): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(251): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(289): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\charcter.cpp(290): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DeadState.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  DeafultPart.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  DeffensState.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  IdileState.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  Item.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\2dtilemap\titlem\item.cpp(41): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\a\documents\2dtilemap\titlem\item.cpp(42): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LifeNPC.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  LifePlayer.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  LifeStagePart.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  Monster.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  MoveState.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  NPC.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  PathfindState.cpp
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\2dtilemap\titlem\pathfindstate.cpp(57): warning C4996: 'swprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h(1822): note: 'swprintf' 선언을 참조하십시오.
+c:\users\a\documents\2dtilemap\titlem\pathfindstate.cpp(294): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PathfinderMonster.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  PathfinderPart.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  PathfinderPlayer.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  PathfindingMovingState.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  RecoveryItem.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  Stage.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+  컴파일하고 있습니다...
+  State.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\2dtilemap\titlem\state.cpp(13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\a\documents\2dtilemap\titlem\state.cpp(48): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\a\documents\2dtilemap\titlem\state.cpp(56): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  WeaponItem.cpp
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+  player.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\2dtilemap\titlem\player.cpp(21): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  poisonItem.cpp
+c:\users\a\documents\2dtilemap\titlem\globaltype.h(12): warning C4091: 'typedef ': 변수를 선언하지 않으면 'TilePosition' 왼쪽은 무시됩니다.
+c:\users\a\documents\sdk\include\dxgitype.h(12): warning C4005: 'DXGI_STATUS_OCCLUDED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53655): note: 'DXGI_STATUS_OCCLUDED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(13): warning C4005: 'DXGI_STATUS_CLIPPED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53664): note: 'DXGI_STATUS_CLIPPED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(14): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53673): note: 'DXGI_STATUS_NO_REDIRECTION'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(15): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53682): note: 'DXGI_STATUS_NO_DESKTOP_ACCESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(16): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53691): note: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(17): warning C4005: 'DXGI_STATUS_MODE_CHANGED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53700): note: 'DXGI_STATUS_MODE_CHANGED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(18): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53709): note: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(21): warning C4005: 'DXGI_ERROR_INVALID_CALL': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53724): note: 'DXGI_ERROR_INVALID_CALL'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(22): warning C4005: 'DXGI_ERROR_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53733): note: 'DXGI_ERROR_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(23): warning C4005: 'DXGI_ERROR_MORE_DATA': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53742): note: 'DXGI_ERROR_MORE_DATA'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(24): warning C4005: 'DXGI_ERROR_UNSUPPORTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53751): note: 'DXGI_ERROR_UNSUPPORTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(25): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53760): note: 'DXGI_ERROR_DEVICE_REMOVED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(26): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53769): note: 'DXGI_ERROR_DEVICE_HUNG'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(27): warning C4005: 'DXGI_ERROR_DEVICE_RESET': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53779): note: 'DXGI_ERROR_DEVICE_RESET'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(28): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53788): note: 'DXGI_ERROR_WAS_STILL_DRAWING'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(29): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53798): note: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(30): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53807): note: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(31): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53817): note: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(32): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53826): note: 'DXGI_ERROR_NONEXCLUSIVE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(33): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53835): note: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(34): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53845): note: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\dxgitype.h(35): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(53854): note: 'DXGI_ERROR_REMOTE_OUTOFMEMORY'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(917): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54118): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(918): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54127): note: 'D3D11_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(919): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54137): note: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d11.h(920): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54146): note: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(608): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54094): note: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'의 이전 정의를 참조하십시오.
+c:\users\a\documents\sdk\include\d3d10.h(609): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\winerror.h(54103): note: 'D3D10_ERROR_FILE_NOT_FOUND'의 이전 정의를 참조하십시오.
+json_vc71_libmtd.lib(json_value.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+  코드를 생성하고 있습니다.
+  34 of 2324 functions ( 1.5%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    18 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+json_vc71_libmtd.lib(json_reader.obj) : warning LNK4099: 'lib_json.pdb' PDB를 'json_vc71_libmtd.lib(json_reader.obj)' 또는 'C:\Users\a\Documents\2DTileMap\Release\lib_json.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+json_vc71_libmtd.lib(json_value.obj) : warning LNK4099: 'lib_json.pdb' PDB를 'json_vc71_libmtd.lib(json_value.obj)' 또는 'C:\Users\a\Documents\2DTileMap\Release\lib_json.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+json_vc71_libmtd.lib(json_writer.obj) : warning LNK4099: 'lib_json.pdb' PDB를 'json_vc71_libmtd.lib(json_writer.obj)' 또는 'C:\Users\a\Documents\2DTileMap\Release\lib_json.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  titleM.vcxproj -> C:\Users\a\Documents\2DTileMap\Release\titleM.exe

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\graphic">
+      <UniqueIdentifier>{ad63c934-21a8-4c6d-97a1-f7ba335b713b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\graphic\Sprite">
+      <UniqueIdentifier>{08a2cb96-5f44-444c-8738-39c12675f216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\graphic\Frame">
+      <UniqueIdentifier>{2986437c-03c0-49c9-bb1c-39af730bac09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\graphic\Texture">
+      <UniqueIdentifier>{1bc7b85f-6bd6-413e-bc6c-92be0cb9a655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ResourceManger">
+      <UniqueIdentifier>{5a0f9bd4-09dc-41f6-bd5e-00d17b123dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{546db112-aa87-454a-b089-e21ea02aa54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\GameSystem%28싱글턴%29">
+      <UniqueIdentifier>{a009d929-f61b-4695-a27a-36c51544011d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{25457026-925a-40a3-9e42-3cc6de187a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\GameTimer">
+      <UniqueIdentifier>{eff64099-85b6-45d1-8878-8e4bcce8856b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\graphic\Font">
+      <UniqueIdentifier>{f587b7d9-c58d-4464-bad7-9b7ef4a56811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Scene">
+      <UniqueIdentifier>{c4f03136-bc29-4adc-a448-6f1164d5e261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Scene\GameScene">
+      <UniqueIdentifier>{300959a7-9916-4d3d-8d2a-a89779d33cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Scene\00TitleScene">
+      <UniqueIdentifier>{bf45e4e6-ddc1-4150-bed6-b602c8722a83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>소스 파일\System\GameSystem%28싱글턴%29</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTimer.cpp">
+      <Filter>소스 파일\System\GameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일\graphic\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>소스 파일\graphic\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\graphic\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\ResourceManger</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>소스 파일\graphic\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Game\Scene\00TitleScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameSystem.h">
+      <Filter>소스 파일\System\GameSystem%28싱글턴%29</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTimer.h">
+      <Filter>소스 파일\System\GameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스 파일\graphic\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>소스 파일\graphic\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\graphic\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\ResourceManger</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>소스 파일\graphic\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Game\Scene\00TitleScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
