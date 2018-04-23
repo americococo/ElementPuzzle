@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\Game\Scene\00TitleScene">
       <UniqueIdentifier>{bf45e4e6-ddc1-4150-bed6-b602c8722a83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Game\Block">
+      <UniqueIdentifier>{4af5b4a5-cd1c-4c35-9046-d608f9766abf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -87,6 +90,12 @@
     <ClCompile Include="TitleScene.cpp">
       <Filter>소스 파일\Game\Scene\00TitleScene</Filter>
     </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일\Game\Block</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSystem.h">
@@ -118,6 +127,12 @@
     </ClInclude>
     <ClInclude Include="TitleScene.h">
       <Filter>소스 파일\Game\Scene\00TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>소스 파일\Game\Block</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

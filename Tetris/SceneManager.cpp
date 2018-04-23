@@ -1,6 +1,9 @@
 #include "SceneManager.h"
+
 #include "Scene.h"
+
 #include "TitleScene.h"
+#include "GameScene.h"
 SceneManager::SceneManager(){}
 SceneManager::~SceneManager(){}
 SceneManager* SceneManager::_instance = nullptr;
@@ -16,6 +19,7 @@ void SceneManager::ChangeScene(eScene type)
 	if (_scene != nullptr)
 	{
 		_scene->Stop();
+		_scene = nullptr;
 	}
 	_scene = _sceneMap[type];
 	_scene->Start();
@@ -34,8 +38,11 @@ void SceneManager::InitScene()
 	_scene = nullptr;
 	{
 		Scene * scene =new TitleScene();
-		scene->Init();
 		_sceneMap[eScene::TITLE] = scene;
+	}
+	{
+		Scene * scene = new GameScene();
+		_sceneMap[eScene::GAME] = scene;
 	}
 	ChangeScene(eScene::TITLE);
 }

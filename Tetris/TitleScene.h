@@ -7,10 +7,11 @@ public:
 	TitleScene();
 	~TitleScene();
 
-	void Init();
+	void Start();
 	void Update(float deltaTime);
 	void Render();
 
+	void Stop();
 private:
 	Sprite * _backGround;
 };

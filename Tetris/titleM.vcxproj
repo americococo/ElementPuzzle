@@ -149,8 +149,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Block.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="gameTimer.cpp" />
     <ClCompile Include="main.cpp" />
@@ -162,8 +164,10 @@
     <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Block.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="Frame.h" />
+    <ClInclude Include="GameScene.h" />
     <ClInclude Include="GameSystem.h" />
     <ClInclude Include="gameTimer.h" />
     <ClInclude Include="ResourceManager.h" />

@@ -39,6 +39,12 @@ LRESULT CALLBACK/*호출규약*/ WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM 
 
 void GameSystem::KeyDown(unsigned int keycode)
 {
+	if (_keystate[keycode] == eKeyState::KEY_DOWN)
+	{
+		_keystate[keycode] = eKeyState::KEY_HOLDING;
+		return;
+	}
+
 	_keystate[keycode] = eKeyState::KEY_DOWN;
 }
 void GameSystem::KeyUp(unsigned int keycode)
@@ -252,8 +258,9 @@ int GameSystem::Update()
 
 			if (secperFrame <= frameDuration)//하나의 플레임 지나갔음
 			{
-
 				frameDuration = 0.0f;
+
+ 				SceneManager::GetInstance()->Update(deltaTime);
 
 				_direxct3Ddevice->Clear(0, NULL, D3DCLEAR_TARGET, D3DCOLOR_XRGB(0, 0, 0), 0.0F, 0);
 				{
@@ -275,8 +282,6 @@ int GameSystem::Update()
 	}
 	return  (int)msg.wParam;
 }
-
-
 
 int GameSystem::GetWidth()
 {

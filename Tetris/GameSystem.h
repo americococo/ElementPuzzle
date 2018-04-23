@@ -67,7 +67,7 @@ public:
 public:
 	enum eKeyState
 	{
-		KEY_DOWN, KEY_UP
+		KEY_DOWN, KEY_UP,KEY_HOLDING
 	};
 
 public:

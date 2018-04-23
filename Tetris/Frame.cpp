@@ -54,7 +54,7 @@ void Frame::render()
 
 void Frame::Release()
 {
-
+	
 }
 
 void Frame::Reset()

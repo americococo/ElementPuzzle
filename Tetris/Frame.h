@@ -38,4 +38,9 @@ private:
 
 public:
 	float GetFrameDelay();
+
+
+public:
+	int GetWidth() { return _width; }
+	int GetHeight() { return _height; }
 };

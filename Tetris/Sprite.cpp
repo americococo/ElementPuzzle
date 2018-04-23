@@ -27,13 +27,12 @@ void Sprite::Init()
 	WCHAR textureFileName[256];
 	WCHAR scriptFileName[256];
 
-	wsprintf(textureFileName, L"../Resource/%s",_textureFileName );
+	wsprintf(textureFileName, L"../Resource/Img/%s",_textureFileName );
 
 	_srcTexture = ResourceManager::GetInstance()->LoadTexture(textureFileName);
 
 	//json Parsing
 	{
-	
 		wsprintf(scriptFileName, L"../Resource/%s", _scriptFileName);
 
 		std::vector<std::string> ScriptList = ResourceManager::GetInstance()->LoadScript(scriptFileName);
@@ -89,12 +88,14 @@ void Sprite::Init(int srcX, int srcY, int width, int height, float delay)
 void Sprite::Update(float deltaTime)
 {
 	
-	_frameTime += deltaTime;
-	if (_frameList[_currentFrame]->GetFrameDelay() <= _frameTime)
 	{
-		_frameTime = 0.0f;
-		
-		_currentFrame = (_currentFrame + 1) % _frameList.size();
+		_frameTime += deltaTime;
+		if (_frameList[_currentFrame]->GetFrameDelay() <= _frameTime)
+		{
+			_frameTime = 0.0f;
+
+			_currentFrame = (_currentFrame + 1) % _frameList.size();
+		}
 	}
 
 }
@@ -137,6 +138,8 @@ void Sprite::Release()
 		frame->Release();
 	}
 	_srcTexture->Release();
+
+	
 }
 
 void Sprite::Reset() 
@@ -155,4 +158,13 @@ void Sprite::setPostition(float posX, float posY)
 {
 	_x = posX;
 	_y = posY;
+}
+int Sprite::GetWidth()
+{
+	return _frameList[_currentFrame]->GetWidth();
+	
+}
+int Sprite::GetHeight()
+{
+	return _frameList[_currentFrame]->GetHeight();
 }
