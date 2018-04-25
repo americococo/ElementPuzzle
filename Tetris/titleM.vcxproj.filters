@@ -55,6 +55,15 @@
     <Filter Include="소스 파일\Game\Block">
       <UniqueIdentifier>{4af5b4a5-cd1c-4c35-9046-d608f9766abf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Game\Map">
+      <UniqueIdentifier>{5ec8fc96-6779-4af8-a698-ceab3aa77c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Map\TileCell">
+      <UniqueIdentifier>{664eabb9-5d63-4d10-a22c-44a7357ad60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Block\BlankBlock">
+      <UniqueIdentifier>{f51b863d-c5fc-4373-935e-bc5075c34d5f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -96,6 +105,15 @@
     <ClCompile Include="Block.cpp">
       <Filter>소스 파일\Game\Block</Filter>
     </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileCell.cpp">
+      <Filter>소스 파일\Game\Map\TileCell</Filter>
+    </ClCompile>
+    <ClCompile Include="BlankBlock.cpp">
+      <Filter>소스 파일\Game\Block\BlankBlock</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSystem.h">
@@ -133,6 +151,15 @@
     </ClInclude>
     <ClInclude Include="Block.h">
       <Filter>소스 파일\Game\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileCell.h">
+      <Filter>소스 파일\Game\Map\TileCell</Filter>
+    </ClInclude>
+    <ClInclude Include="BlankBlock.h">
+      <Filter>소스 파일\Game\Block\BlankBlock</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

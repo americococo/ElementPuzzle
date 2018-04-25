@@ -24,4 +24,7 @@ public:
 
 	void Update(float deltaTime);
 	void Render();
+
+public:
+	Scene * GetScene() { return _scene; }
 };

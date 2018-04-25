@@ -1,5 +1,5 @@
 #pragma once
-#define FILESCALE 48
+
 class Sprite;
 
 class Block
@@ -10,30 +10,18 @@ public:
 
 
 
-	void Init();
-	void Update(float deltaTime);
-	void Render();
+	virtual void Init();
+	virtual void Update(float deltaTime);
+	virtual void Render();
 
-private:
+protected:
 	Sprite * _BlockImg;
-
-	int _left;
-	int _right;
-	int _top;
-	int _bottom;
-
 	int _posx;
 	int _posy;
 
+	int _Width;
+	int _Height;
 public:
-	void SetPostion(float posX, float posY);
-
-public:
-	void KeyDown();
-
-
-
-private:
-	float _durationTime;
-	float _updateTime;
+	Sprite * GetSprite() { return _BlockImg; }
+	void SetPosition(int positionX, int positionY);
 };
