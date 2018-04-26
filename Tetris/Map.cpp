@@ -49,6 +49,12 @@ void Map::Render()
 }
 bool Map::CanMove(int posX,int posY)
 {
+	if (posX >= _sizeX || posX <0)
+		return false;
+	if(posY >= _sizeY || posY <0)
+		return false;
+
+
 	return _tileList[posY][posX]->CanMove();
 }
 void Map::SetBlock(Block *block,int posX,int posY)
@@ -56,7 +62,10 @@ void Map::SetBlock(Block *block,int posX,int posY)
 	_tileList[posY][posX]->SetBlock(block);
 	_tileList[posY][posX]->SetCanMove(false);
 }
-
+void Map::ResetTile(Block *block, int posX, int posY)
+{
+	_tileList[posY][posX]->ReSetTile(block);
+}
 Map::~Map()
 {
 }

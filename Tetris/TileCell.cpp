@@ -29,7 +29,12 @@ void TileCell::Init(int posX, int posY)
 		(*itr)->SetPosition(_posX, _posY);
 	}
 }
-
+void TileCell::ReSetTile(Block * block)
+{
+	Block * aoa = block;
+	Tile.remove(block);
+	_isMovableTile = true;
+}
 void TileCell::Update(float deltaTime)
 {
 	std::list<Block*>::iterator itr;

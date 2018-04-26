@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\Game\Block\BlankBlock">
       <UniqueIdentifier>{f51b863d-c5fc-4373-935e-bc5075c34d5f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Game\Block\BlockManager">
+      <UniqueIdentifier>{e2fa5e31-04a7-4fbb-9cbb-1a28b672e81d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -114,6 +117,9 @@
     <ClCompile Include="BlankBlock.cpp">
       <Filter>소스 파일\Game\Block\BlankBlock</Filter>
     </ClCompile>
+    <ClCompile Include="BlockManager.cpp">
+      <Filter>소스 파일\Game\Block\BlockManager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSystem.h">
@@ -160,6 +166,9 @@
     </ClInclude>
     <ClInclude Include="BlankBlock.h">
       <Filter>소스 파일\Game\Block\BlankBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>소스 파일\Game\Block\BlockManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

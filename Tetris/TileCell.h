@@ -8,7 +8,7 @@ public:
 	TileCell();
 	~TileCell();
 
-
+	void ReSetTile(Block * block);
 	void Init(int posX,int posY);
 	void Update(float deltaTime);
 	void Render();

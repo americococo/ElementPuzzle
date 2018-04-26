@@ -28,10 +28,13 @@ void Block::Update(float deltaTime)
 
 void Block::SetPosition(int posX, int posY)
 {
-	_posx = _Width / 2 + (_Width*posX);
-	_posy = _Height / 2 + (_Height*posY);
+	_RealPostionX = _Width / 2 + (_Width*posX);
+	_RealPostionY = _Height / 2 + (_Height*posY);
 
- 	_BlockImg->setPostition(_posx, _posy);
+ 	_BlockImg->setPostition(_RealPostionX, _RealPostionY);
+
+	_posx = posX;
+	_posy = posY;
 }
 void Block::Render()
 {

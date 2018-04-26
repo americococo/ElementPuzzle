@@ -1,9 +1,10 @@
 #pragma once
 #include "Scene.h"
 
+class BlockManger;
 class Map;
 class Sprite;
-class Block;
+
 class GameScene :public Scene
 {
 public:
@@ -17,10 +18,15 @@ public:
 
 private:
 	Sprite * _backGround;
-	Block * _block;
 
 	Map * _map;
 
 public:
 	Map * GetMap() { return _map; }
+
+
+private:
+	BlockManger * _blockManager;
+public:
+	BlockManger * GetBlockManager() { return _blockManager; }
 };

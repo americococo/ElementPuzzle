@@ -26,6 +26,6 @@ public:
 
 public:
 	void SetBlock(Block *block, int posX, int posY);
-
+	void ResetTile(Block *block, int posX, int posY);
 };
 
