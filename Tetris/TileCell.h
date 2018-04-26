@@ -25,13 +25,13 @@ private:
 	int _Width;
 	int _Height;
 
-private:
-	bool _isMovableTile;
+
 public:
-	bool CanMove() { return _isMovableTile; }
-	void SetCanMove(bool isMove) { _isMovableTile = isMove; }
+	bool CanMove();
+
 
 public:
 	void SetBlock(Block * block);
-	
+
+	void GetBlockList(std::list<Block*>& blockList);
 };

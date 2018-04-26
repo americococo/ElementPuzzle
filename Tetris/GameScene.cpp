@@ -14,6 +14,8 @@ void GameScene::Start()
 
 	GameSystem::GetInstance()->InitInput();
 
+	
+
 	_blockManager = new BlockManger();
 	_blockManager->Init();
 }
@@ -35,5 +37,5 @@ void GameScene::Render()
 }
 void GameScene::Stop()
 {
-	delete _map;
+
 }

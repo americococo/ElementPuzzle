@@ -4,10 +4,12 @@
 
 #include "SceneManager.h"
 #include "GameScene.h"
+#include "BlockManager.h"
 
 #include "Map.h"
 
 #include <stdio.h>
+
 Block::Block() {}
 Block::~Block() {}
 
@@ -20,10 +22,13 @@ void Block::Init()
 	_Width = _BlockImg->GetWidth();
 	_Height = _BlockImg->GetHeight();
 	
+	_isMovableTile = false;
 }
 void Block::Update(float deltaTime)
 {
 	_BlockImg->Update(deltaTime);
+
+	std::list<Block*> _blockList = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->FindBlock(this);
 }
 
 void Block::SetPosition(int posX, int posY)

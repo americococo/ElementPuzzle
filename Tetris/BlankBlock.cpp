@@ -16,6 +16,8 @@ void BlanBlock::Init()
 
 	_Width = _BlockImg->GetWidth();
 	_Height = _BlockImg->GetHeight();
+
+	_isMovableTile = true;
 }
 
 void BlanBlock::Update(float deltaTime)

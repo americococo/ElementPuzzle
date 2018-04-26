@@ -9,6 +9,7 @@ BlockManger::BlockManger()
 BlockManger::~BlockManger()
 {
 }
+
 void BlockManger::Init()
 {
 	_isInstallBlock = true;
@@ -19,7 +20,8 @@ void BlockManger::Init()
 void BlockManger::Update(float deltaTime)
 {
 	_map->Update(deltaTime);
-	if (GameSystem::GetInstance()->IsKeyDown(VK_SPACE) && true == _isInstallBlock)
+
+	if ( (!GameSystem::GetInstance()->IsKeyDown(VK_SPACE)) && true == _isInstallBlock)
 	{
 		_isInstallBlock = false;
 
@@ -31,22 +33,37 @@ void BlockManger::Update(float deltaTime)
 		int posx= block->GetPosX();
 		int posy= block->GetPosY();
 
-		int x = posx;
-		int y = posy;
+		int x = 0;
+		int y = 0;
 
-		if (GameSystem::GetInstance()->IsKeyDown(VK_LEFT))
-			x--;
-		if (GameSystem::GetInstance()->IsKeyDown(VK_RIGHT))
-			x++;
-		if (GameSystem::GetInstance()->IsKeyDown(VK_UP))
-			y--;
-		if (GameSystem::GetInstance()->IsKeyDown(VK_DOWN))
-			y++;
+		//INput Direction
+		switch (GameSystem::GetInstance()->isInputKey())
+		{
+		case VK_LEFT: x--;
+			break;
+		case VK_RIGHT: x++;
+			break;
+		case VK_UP: y--;
+			break;
+		case VK_DOWN: y++;
+			break;
+		}
 
-		if (_map->CanMove(x, y))
+		while(_map->CanMove(posx + x, posy + y))
 		{
 			_map->ResetTile(block, posx, posy);
-			_map->SetBlock(block, x, y);
+			_map->SetBlock(block, posx + x, posy + y);
+			posx = posx + x;
+			posy = posy + y;
+		}
+	}
+
+	if (GameSystem::GetInstance()->IsKeyDown(VK_SPACE))
+	{
+		_isInstallBlock = true;
+		if (false ==_blockSelect.empty())
+		{
+			_blockSelect.pop();
 		}
 	}
 }
@@ -65,4 +82,36 @@ void BlockManger::RandSpwan()
 void  BlockManger::Render()
 {
 	_map->Render();
+}
+
+std::list<Block*> BlockManger::FindBlock(Block * finder)
+{
+	int MinTileX = finder->GetPosX() - 1;
+	int MaxTileX = finder->GetPosX() + 1;
+
+	int MinTileY = finder->GetPosY() - 1;
+	int MaxTileY = finder->GetPosY() + 1;
+
+	if (MinTileX < 0)
+		MinTileX = 0;
+
+	if (MaxTileX >= 10)
+		MaxTileX = 10 - 1;
+
+	if (MinTileY < 0)
+		MinTileY = 0;
+
+	if (MaxTileY >=10)
+		MaxTileY = 10-1;
+
+
+	std::list<Block*> _blockList;
+	for (int y = MinTileY; y <= MaxTileY; y++)
+	{
+		for (int x = MinTileX; x <= MaxTileX; x++)
+		{
+			_map->GetBlockList(_blockList, x, y);
+		}
+	}
+	return _blockList;
 }

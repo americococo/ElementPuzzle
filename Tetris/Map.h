@@ -3,6 +3,7 @@
 #include <vector>
 class TileCell;
 class Block;
+#include <list>
 class Map
 {
 public:
@@ -27,5 +28,7 @@ public:
 public:
 	void SetBlock(Block *block, int posX, int posY);
 	void ResetTile(Block *block, int posX, int posY);
+
+	void GetBlockList(std::list<Block*>& blockList,int posX,int posY);
 };
 

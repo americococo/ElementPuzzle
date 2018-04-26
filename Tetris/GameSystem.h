@@ -17,7 +17,8 @@ private:
 public:
 	static GameSystem * GetInstance();
 
-	//window 등록,생성&출력
+
+	
 public:
 	bool InitSystem(HINSTANCE hInstance, int nCmdShow);
 	int Update();
@@ -67,7 +68,7 @@ public:
 public:
 	enum eKeyState
 	{
-		KEY_DOWN, KEY_UP,KEY_HOLDING
+		KEY_DOWN, KEY_UP
 	};
 
 public:
@@ -84,6 +85,6 @@ private:
 public:
 	bool IsKeyDown(unsigned int keycode);
 
-
+	unsigned int isInputKey();
 
 };

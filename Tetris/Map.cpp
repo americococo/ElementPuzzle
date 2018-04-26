@@ -16,7 +16,6 @@ void Map::Init(int sizeX,int sizeY)
 		{
 			TileCell * tile = new TileCell();
 			tile->Init(x, y);
-			tile->SetCanMove(true);
 			col.push_back(tile);
 		}
 		_tileList.push_back(col);
@@ -60,11 +59,14 @@ bool Map::CanMove(int posX,int posY)
 void Map::SetBlock(Block *block,int posX,int posY)
 {
 	_tileList[posY][posX]->SetBlock(block);
-	_tileList[posY][posX]->SetCanMove(false);
 }
 void Map::ResetTile(Block *block, int posX, int posY)
 {
 	_tileList[posY][posX]->ReSetTile(block);
+}
+void Map::GetBlockList(std::list<Block*>& blockList, int posX, int posY)
+{
+	_tileList[posY][posX]->GetBlockList(blockList);
 }
 Map::~Map()
 {

@@ -31,9 +31,7 @@ void TileCell::Init(int posX, int posY)
 }
 void TileCell::ReSetTile(Block * block)
 {
-	Block * aoa = block;
 	Tile.remove(block);
-	_isMovableTile = true;
 }
 void TileCell::Update(float deltaTime)
 {
@@ -42,6 +40,17 @@ void TileCell::Update(float deltaTime)
 	{
 		(*itr)->Update(deltaTime);
 	}
+}
+
+bool TileCell::CanMove()
+{
+	std::list<Block*>::iterator itr;
+	for (itr = Tile.begin(); itr != Tile.end(); itr++)
+	{
+		if (((*itr)->CanMove()) == false)
+			return false;
+	}
+	return true;
 }
 
 void TileCell::Render()
@@ -58,4 +67,15 @@ void TileCell::SetBlock(Block * block)
 {
 	block->SetPosition(_posX, _posY);
 	Tile.push_back(block);
+}
+void TileCell::GetBlockList(std::list<Block*>& blockList) 
+{
+	
+	for (std::list<Block*>::iterator itr = Tile.begin(); itr != Tile.end(); itr++)
+	{
+		if (false == (*itr)->CanMove())
+		{
+			blockList.push_back(*itr);
+		}
+	}
 }

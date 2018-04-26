@@ -39,12 +39,6 @@ LRESULT CALLBACK/*호출규약*/ WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM 
 
 void GameSystem::KeyDown(unsigned int keycode)
 {
-	if (_keystate[keycode] == eKeyState::KEY_DOWN)
-	{
-		_keystate[keycode] = eKeyState::KEY_HOLDING;
-		return;
-	}
-
 	_keystate[keycode] = eKeyState::KEY_DOWN;
 }
 void GameSystem::KeyUp(unsigned int keycode)
@@ -55,6 +49,15 @@ void GameSystem::KeyUp(unsigned int keycode)
 bool GameSystem::IsKeyDown(unsigned int keycode)
 {
 	return (eKeyState::KEY_DOWN == _keystate[keycode]);
+}
+unsigned int GameSystem::isInputKey()
+{
+	for (int i = 0; i < 256; i++)
+	{
+		if (_keystate[i] == eKeyState::KEY_DOWN)
+			return i;
+	}
+	return NULL;
 }
 
 void GameSystem::InitInput()
