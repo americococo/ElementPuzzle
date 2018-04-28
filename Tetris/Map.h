@@ -24,7 +24,7 @@ public:
 
 	bool CanMove(int posX,int posY);
 
-
+	bool CanPutBlock();
 public:
 	void SetBlock(Block *block, int posX, int posY);
 	void ResetTile(Block *block, int posX, int posY);

@@ -1,7 +1,10 @@
 #include "BlockManager.h"
 #include "GameSystem.h"
 #include "Block.h"
+#include "SelectBlock.h"
+
 #include "Map.h"
+
 BlockManger::BlockManger()
 {
 }
@@ -20,8 +23,8 @@ void BlockManger::Init()
 void BlockManger::Update(float deltaTime)
 {
 	_map->Update(deltaTime);
-
-	if ( (!GameSystem::GetInstance()->IsKeyDown(VK_SPACE)) && true == _isInstallBlock)
+	
+	if ( (!GameSystem::GetInstance()->IsKeyDown(VK_SPACE)) && true == _isInstallBlock && _map->CanPutBlock())
 	{
 		_isInstallBlock = false;
 
@@ -61,8 +64,17 @@ void BlockManger::Update(float deltaTime)
 	if (GameSystem::GetInstance()->IsKeyDown(VK_SPACE))
 	{
 		_isInstallBlock = true;
+
 		if (false ==_blockSelect.empty())
 		{
+			Block * block = _blockSelect.back();
+			int ChangePosX=block->GetPosX();
+			int ChangePosY = block->GetPosY();
+			_map->ResetTile(block, ChangePosX, ChangePosY);
+			delete block;
+			block = new Block();
+			block->Init();
+			_map->SetBlock(block, ChangePosX, ChangePosY);
 			_blockSelect.pop();
 		}
 	}
@@ -71,13 +83,22 @@ void BlockManger::RandSpwan()
 {
 	int randposX = rand() % 10;
 	int randposY = rand() % 10;
-	if (_map->CanMove(randposX, randposY))
+
+
+	do
 	{
-		Block * block = new Block();
+		randposX = rand() % 10;
+		randposY = rand() % 10;
+	} while (!(_map->CanMove(randposX, randposY)));
+
+
+	{
+		Block * block = new SelectBlock();
 		block->Init();
 		_map->SetBlock(block, randposX, randposY);
 		_blockSelect.push(block);
 	}
+
 }
 void  BlockManger::Render()
 {

@@ -5,7 +5,7 @@ Map::Map()
 {
 	_tileList.clear();
 }
-void Map::Init(int sizeX,int sizeY)
+void Map::Init(int sizeX, int sizeY)
 {
 	std::vector<TileCell*> col;
 	col.clear();
@@ -46,17 +46,31 @@ void Map::Render()
 		}
 	}
 }
-bool Map::CanMove(int posX,int posY)
+bool Map::CanMove(int posX, int posY)
 {
-	if (posX >= _sizeX || posX <0)
+	if (posX >= _sizeX || posX < 0)
 		return false;
-	if(posY >= _sizeY || posY <0)
+	if (posY >= _sizeY || posY < 0)
 		return false;
 
 
 	return _tileList[posY][posX]->CanMove();
 }
-void Map::SetBlock(Block *block,int posX,int posY)
+
+bool Map::CanPutBlock()
+{
+	for (int y = 0; y < _sizeY; y++)
+	{
+		for (int x = 0; x < _sizeX; x++)
+		{
+			if (_tileList[y][x]->CanMove() == true)
+				return true;
+		}
+	}
+	return false;
+}
+
+void Map::SetBlock(Block *block, int posX, int posY)
 {
 	_tileList[posY][posX]->SetBlock(block);
 }
