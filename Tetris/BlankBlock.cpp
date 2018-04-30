@@ -11,7 +11,7 @@ BlanBlock::~BlanBlock()
 
 void BlanBlock::Init()
 {
-	_BlockImg = new Sprite(L"BlankBlock.png", L"BlankBlock.json");
+	_BlockImg = new Sprite(L"BlankBlock.png");
 	_BlockImg->Init();
 
 	_Width = _BlockImg->GetWidth();
@@ -22,7 +22,7 @@ void BlanBlock::Init()
 
 void BlanBlock::Update(float deltaTime)
 {
-	_BlockImg->Update(deltaTime);
+	//_BlockImg->Update(deltaTime);
 }
 void BlanBlock::Render()
 {

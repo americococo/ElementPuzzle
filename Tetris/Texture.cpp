@@ -35,12 +35,12 @@ void Texture::Init(LPCWSTR  spriteFileName)
 }
 void Texture::deInit()
 {
-	RELEASE_COM(_texture);
+
 }
 
 void Texture::Release()
 {
-
+	RELEASE_COM(_texture);
 }
 
 
@@ -49,3 +49,7 @@ IDirect3DTexture9* Texture::GetTextureDX()
 	return _texture;
 }
 
+D3DXIMAGE_INFO Texture::GetTextureInfo()
+{
+	return textureInfo;
+}

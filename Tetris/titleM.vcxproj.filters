@@ -19,9 +19,6 @@
     <Filter Include="소스 파일\graphic\Sprite">
       <UniqueIdentifier>{08a2cb96-5f44-444c-8738-39c12675f216}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\graphic\Frame">
-      <UniqueIdentifier>{2986437c-03c0-49c9-bb1c-39af730bac09}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\graphic\Texture">
       <UniqueIdentifier>{1bc7b85f-6bd6-413e-bc6c-92be0cb9a655}</UniqueIdentifier>
     </Filter>
@@ -84,9 +81,6 @@
     <ClCompile Include="Sprite.cpp">
       <Filter>소스 파일\graphic\Sprite</Filter>
     </ClCompile>
-    <ClCompile Include="Frame.cpp">
-      <Filter>소스 파일\graphic\Frame</Filter>
-    </ClCompile>
     <ClCompile Include="Texture.cpp">
       <Filter>소스 파일\graphic\Texture</Filter>
     </ClCompile>
@@ -136,9 +130,6 @@
     </ClInclude>
     <ClInclude Include="Sprite.h">
       <Filter>소스 파일\graphic\Sprite</Filter>
-    </ClInclude>
-    <ClInclude Include="Frame.h">
-      <Filter>소스 파일\graphic\Frame</Filter>
     </ClInclude>
     <ClInclude Include="Texture.h">
       <Filter>소스 파일\graphic\Texture</Filter>

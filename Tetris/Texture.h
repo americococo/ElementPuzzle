@@ -17,4 +17,6 @@ public:
 	void Release();
 
 	IDirect3DTexture9* GetTextureDX();
+
+	D3DXIMAGE_INFO GetTextureInfo();
 };

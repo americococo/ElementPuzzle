@@ -23,11 +23,11 @@ public:
 private:
 	std::map<std::wstring, Texture*> _textureMap;
 
-private:
-	std::map < std::wstring, std::vector<std::string>> _scriptMap;
-
-public:
-	std::vector<std::string> LoadScript(std::wstring scriptFileName);
+//private:
+//	std::map < std::wstring, std::vector<std::string>> _scriptMap;
+//
+//public:
+//	std::vector<std::string> LoadScript(std::wstring scriptFileName);
 	
 private:
 	ResourceManager();

@@ -39,24 +39,3 @@ Texture * ResourceManager::LoadTexture(std::wstring  spriteFileName)
 	return texture;
 		
 }
-std::vector<std::string> ResourceManager::LoadScript(std::wstring scriptFileName)
-{
-	std::map<std::wstring, std::vector<std::string>>::iterator itr = _scriptMap.find(scriptFileName);
-	if (itr != _scriptMap.end())
-	{
-		return itr->second;
-	}
-
-	char record[1000];
-	std::ifstream infile(scriptFileName);
-	std::vector<std::string > _scriptList;
-	while (!infile.eof())
-	{
-		infile.getline(record, 100);
-		 _scriptList.push_back(record);
-	}
-
-	_scriptMap[scriptFileName] = _scriptList;
-
-	return _scriptList;
-}

@@ -15,7 +15,7 @@ Block::~Block() {}
 
 void Block::Init()
 {
-	_BlockImg = new Sprite(L"Block.png", L"Block.json");
+	_BlockImg = new Sprite(L"Block.png");
 	_BlockImg->Init();
 
 
@@ -26,7 +26,7 @@ void Block::Init()
 }
 void Block::Update(float deltaTime)
 {
-	_BlockImg->Update(deltaTime);
+//	_BlockImg->Update(deltaTime);
 
 	std::list<Block*> _blockList = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->FindBlock(this);
 }

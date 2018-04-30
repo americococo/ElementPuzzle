@@ -5,7 +5,7 @@ SelectBlock::~SelectBlock() {}
 
 void SelectBlock::Init()
 {
-	_BlockImg = new Sprite(L"SelectBlock.png", L"BlankBlock.json");
+	_BlockImg = new Sprite(L"SelectBlock.png");
 	_BlockImg->Init();
 
 	_Width = _BlockImg->GetWidth();
@@ -15,7 +15,7 @@ void SelectBlock::Init()
 }
 void SelectBlock::Update(float deltaTime)
 {
-	_BlockImg->Update(deltaTime);
+//	_BlockImg->Update(deltaTime);
 }
 void SelectBlock::Render()
 {

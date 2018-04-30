@@ -15,7 +15,7 @@ TitleScene::~TitleScene()
 void TitleScene::Start()
 {
 	GameSystem::GetInstance()->InitInput();
-	_backGround = new Sprite(L"_ba1.png", L"BackGround.json");
+	_backGround = new Sprite(L"_ba1.png");
 	_backGround->Init();
 	_backGround->setPostition(GameSystem::GetInstance()->GetWidth() / 2, GameSystem::GetInstance()->GetHeight() / 2);
 }
@@ -26,8 +26,6 @@ void TitleScene::Update(float deltaTime)
 		SceneManager::GetInstance()->ChangeScene(eScene::GAME);
 		return;
 	}
-	_backGround->Update(deltaTime);
-
 }
 void TitleScene::Render()
 {
