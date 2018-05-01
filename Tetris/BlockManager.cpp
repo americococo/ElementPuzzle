@@ -2,6 +2,7 @@
 #include "GameSystem.h"
 #include "Block.h"
 #include "SelectBlock.h"
+#include "GameBlock.h"
 
 #include "Map.h"
 
@@ -19,6 +20,11 @@ void BlockManger::Init()
 	_map = new Map();
 	_map->Init(10, 10);
 
+	{
+		GameBlock * block = new GameBlock();
+		_BlockInformationList[eGameBlockType::DefaultBlock] = block;
+	}
+	
 }
 void BlockManger::Update(float deltaTime)
 {
@@ -65,18 +71,26 @@ void BlockManger::Update(float deltaTime)
 	{
 		_isInstallBlock = true;
 
-		if (false ==_blockSelect.empty())
-		{
-			Block * block = _blockSelect.back();
-			int ChangePosX=block->GetPosX();
-			int ChangePosY = block->GetPosY();
-			_map->ResetTile(block, ChangePosX, ChangePosY);
-			delete block;
-			block = new Block();
-			block->Init();
-			_map->SetBlock(block, ChangePosX, ChangePosY);
-			_blockSelect.pop();
-		}
+		this->MakeGameBlock();
+	}
+}
+void BlockManger::MakeGameBlock()
+{
+	if (false == _blockSelect.empty())
+	{
+		//delete
+		Block * block = _blockSelect.back();
+		int ChangePosX = block->GetPosX();
+		int ChangePosY = block->GetPosY();
+		_map->ResetTile(block, ChangePosX, ChangePosY);
+		delete block;
+
+
+		//making
+		block = new GameBlock();
+		block->Init();
+		_map->SetBlock(block, ChangePosX, ChangePosY);
+		_blockSelect.pop();
 	}
 }
 void BlockManger::RandSpwan()

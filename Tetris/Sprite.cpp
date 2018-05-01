@@ -22,7 +22,7 @@ Sprite::~Sprite()
 		delete _srcTexture;
 		_srcTexture = NULL;
 	}
-	
+
 }
 
 void Sprite::Init()
@@ -55,26 +55,25 @@ void Sprite::deInit()
 }
 void Sprite::render()
 {
-	{
-		D3DXVECTOR2 spriteCenter = D3DXVECTOR2(_width / 2.0f, _height / 2.0f);
-		D3DXVECTOR2 translate = D3DXVECTOR2(_x - ((float)_width / 2.0f), _y - (_height / 2.0f));
-		D3DXVECTOR2 scaling = D3DXVECTOR2(1.0f, 1.0f);
 
-		D3DXMATRIX matrix;
-		D3DXMatrixTransformation2D(
-			&matrix,
-			NULL,
-			2.0f,
-			&scaling,
-			&spriteCenter,
-			0,
-			&translate
-		);
+	D3DXVECTOR2 spriteCenter = D3DXVECTOR2(_width / 2.0f, _height / 2.0f);
+	D3DXVECTOR2 translate = D3DXVECTOR2(_x - ((float)_width / 2.0f), _y - (_height / 2.0f));
+	D3DXVECTOR2 scaling = D3DXVECTOR2(1.0f, 1.0f);
 
-		_sprite->SetTransform(&matrix);
+	D3DXMATRIX matrix;
+	D3DXMatrixTransformation2D(
+		&matrix,
+		NULL,
+		2.0f,
+		&scaling,
+		&spriteCenter,
+		0,
+		&translate
+	);
 
-		_sprite->Draw(_srcTexture->GetTextureDX(), &srcTextureRect, NULL, NULL, _texturecolor);
-	}
+	_sprite->SetTransform(&matrix);
+
+	_sprite->Draw(_srcTexture->GetTextureDX(), &srcTextureRect, NULL, NULL, _texturecolor);
 
 }
 

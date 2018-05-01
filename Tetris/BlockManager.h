@@ -1,9 +1,11 @@
 #pragma once
 #include <queue>
 #include <list>
+#include <map>
+enum eGameBlockType;
 class Block;
 class Map;
-
+class GameBlock;
 class BlockManger
 {
 public:
@@ -31,5 +33,11 @@ private:
 
 public:
 	std::list<Block*> FindBlock(Block * finder);
+
+private:
+	std::map<eGameBlockType, GameBlock*> _BlockInformationList;
+
+public:
+	void MakeGameBlock();
 };
 

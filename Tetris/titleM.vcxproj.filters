@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\Game\Block\SelectBlock">
       <UniqueIdentifier>{183c0500-2a79-4d3e-be05-15a56b230a12}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Game\Block\GameBlock">
+      <UniqueIdentifier>{dc75306f-3eec-4a1f-bdce-9483668e08c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -120,6 +123,9 @@
     <ClCompile Include="SelectBlock.cpp">
       <Filter>소스 파일\Game\Block\SelectBlock</Filter>
     </ClCompile>
+    <ClCompile Include="GameBlock.cpp">
+      <Filter>소스 파일\Game\Block\GameBlock</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSystem.h">
@@ -169,6 +175,9 @@
     </ClInclude>
     <ClInclude Include="SelectBlock.h">
       <Filter>소스 파일\Game\Block\SelectBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBlock.h">
+      <Filter>소스 파일\Game\Block\GameBlock</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
