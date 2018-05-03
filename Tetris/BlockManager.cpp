@@ -18,13 +18,8 @@ void BlockManger::Init()
 {
 	_isInstallBlock = true;
 	_map = new Map();
-	_map->Init(10, 10);
+	_map->Init(15, 15);
 
-	{
-		GameBlock * block = new GameBlock();
-		_BlockInformationList[eGameBlockType::DefaultBlock] = block;
-	}
-	
 }
 void BlockManger::Update(float deltaTime)
 {
@@ -78,38 +73,52 @@ void BlockManger::MakeGameBlock()
 {
 	if (false == _blockSelect.empty())
 	{
-		//delete
-		Block * block = _blockSelect.back();
-		int ChangePosX = block->GetPosX();
-		int ChangePosY = block->GetPosY();
-		_map->ResetTile(block, ChangePosX, ChangePosY);
-		delete block;
-
-
-		//making
-		block = new GameBlock();
-		block->Init();
-		_map->SetBlock(block, ChangePosX, ChangePosY);
-		_blockSelect.pop();
+		
+		InstallGameBlock(eGameBlockType::DefaultBlock);
+		
 	}
+}
+
+void BlockManger::InstallGameBlock(eGameBlockType type)
+{
+	//delete
+	Block * block = _blockSelect.back();
+	int ChangePosX = block->GetPosX();
+	int ChangePosY = block->GetPosY();
+	_map->ResetTile(block, ChangePosX, ChangePosY);
+	delete block;
+
+	//making
+	switch (type)
+	{
+	case DefaultBlock:
+	default:
+		block = new GameBlock();
+		break;
+	}
+
+	block->Init();
+	_map->SetBlock(block, ChangePosX, ChangePosY);
+	((GameBlock*)block)->Start();
+	_blockSelect.pop();
 }
 void BlockManger::RandSpwan()
 {
-	int randposX = rand() % 10;
-	int randposY = rand() % 10;
+	int randposX = rand() % _map->GetSizeX();
+	int randposY = rand() % _map->GetSizeY();
 
 
 	do
 	{
-		randposX = rand() % 10;
-		randposY = rand() % 10;
+		randposX = rand() % _map->GetSizeX();
+		randposY = rand() % _map->GetSizeY();
 	} while (!(_map->CanMove(randposX, randposY)));
 
 
 	{
 		Block * block = new SelectBlock();
 		block->Init();
-		_map->SetBlock(block, randposX, randposY);
+		_map->SetBlock(block, randposX, randposY );
 		_blockSelect.push(block);
 	}
 

@@ -26,7 +26,10 @@ private:
 
 	void RandSpwan();
 
+	void InstallGameBlock(eGameBlockType type);
 
+public:
+	Map * GetMap() { return _map; }
 private:
 	std::queue<Block*> _blockSelect;
 
@@ -34,8 +37,7 @@ private:
 public:
 	std::list<Block*> FindBlock(Block * finder);
 
-private:
-	std::map<eGameBlockType, GameBlock*> _BlockInformationList;
+
 
 public:
 	void MakeGameBlock();

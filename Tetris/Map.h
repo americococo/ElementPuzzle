@@ -21,6 +21,10 @@ private:
 	int _sizeY;
 
 public:
+	int GetSizeX() { return _sizeX; }
+	int GetSizeY() { return _sizeY; }
+
+public:
 
 	bool CanMove(int posX,int posY);
 

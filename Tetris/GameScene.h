@@ -19,12 +19,6 @@ public:
 private:
 	Sprite * _backGround;
 
-	Map * _map;
-
-public:
-	Map * GetMap() { return _map; }
-
-
 private:
 	BlockManger * _blockManager;
 public:

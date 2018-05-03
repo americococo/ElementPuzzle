@@ -17,6 +17,7 @@ public:
 
 
 	/*overriding*/ void Init();
+	void Start();
 	/*overriding*/ void Update(float deltaTime);
 	/*overriding*/ void Render();
 private:
