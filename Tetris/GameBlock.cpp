@@ -17,6 +17,7 @@ void GameBlock::Init()
 	_Height = _BlockImg->GetHeight();
 
 	_isMovableTile = false;
+
 }
 void GameBlock::Start()
 {

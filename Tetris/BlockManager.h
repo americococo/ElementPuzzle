@@ -1,11 +1,14 @@
 #pragma once
-#include <queue>
+
 #include <list>
 #include <map>
+#include <queue>
+
 enum eGameBlockType;
 class Block;
 class Map;
 class GameBlock;
+
 class BlockManger
 {
 public:
@@ -21,17 +24,15 @@ public:
 
 private:
 	Map * _map;
-	bool _isInstallBlock;
 
-
-	void RandSpwan();
-
-	void InstallGameBlock(eGameBlockType type);
 
 public:
 	Map * GetMap() { return _map; }
+
+
+
 private:
-	std::queue<Block*> _blockSelect;
+	std::queue<Block*> _blockIndex;
 
 
 public:
@@ -39,7 +40,5 @@ public:
 
 
 
-public:
-	void MakeGameBlock();
 };
 

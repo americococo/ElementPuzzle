@@ -16,113 +16,51 @@ BlockManger::~BlockManger()
 
 void BlockManger::Init()
 {
-	_isInstallBlock = true;
 	_map = new Map();
 	_map->Init(15, 15);
-
+	
 }
 void BlockManger::Update(float deltaTime)
 {
 	_map->Update(deltaTime);
 	
-	if ( (!GameSystem::GetInstance()->IsKeyDown(VK_SPACE)) && true == _isInstallBlock && _map->CanPutBlock())
-	{
-		_isInstallBlock = false;
-
-		RandSpwan();
-	}
-	if (false == _blockSelect.empty())
-	{
-		Block * block  = _blockSelect.back();
-		int posx= block->GetPosX();
-		int posy= block->GetPosY();
-
-		int x = 0;
-		int y = 0;
-
-		//INput Direction
-		switch (GameSystem::GetInstance()->isInputKey())
-		{
-		case VK_LEFT: x--;
-			break;
-		case VK_RIGHT: x++;
-			break;
-		case VK_UP: y--;
-			break;
-		case VK_DOWN: y++;
-			break;
-		}
-
-		while(_map->CanMove(posx + x, posy + y))
-		{
-			_map->ResetTile(block, posx, posy);
-			_map->SetBlock(block, posx + x, posy + y);
-			posx = posx + x;
-			posy = posy + y;
-		}
-	}
-
-	if (GameSystem::GetInstance()->IsKeyDown(VK_SPACE))
-	{
-		_isInstallBlock = true;
-
-		this->MakeGameBlock();
-	}
-}
-void BlockManger::MakeGameBlock()
-{
-	if (false == _blockSelect.empty())
-	{
-		
-		InstallGameBlock(eGameBlockType::DefaultBlock);
-		
-	}
-}
-
-void BlockManger::InstallGameBlock(eGameBlockType type)
-{
-	//delete
-	Block * block = _blockSelect.back();
-	int ChangePosX = block->GetPosX();
-	int ChangePosY = block->GetPosY();
-	_map->ResetTile(block, ChangePosX, ChangePosY);
-	delete block;
-
-	//making
-	switch (type)
-	{
-	case DefaultBlock:
-	default:
-		block = new GameBlock();
-		break;
-	}
-
-	block->Init();
-	_map->SetBlock(block, ChangePosX, ChangePosY);
-	((GameBlock*)block)->Start();
-	_blockSelect.pop();
-}
-void BlockManger::RandSpwan()
-{
-	int randposX = rand() % _map->GetSizeX();
-	int randposY = rand() % _map->GetSizeY();
-
-
-	do
-	{
-		randposX = rand() % _map->GetSizeX();
-		randposY = rand() % _map->GetSizeY();
-	} while (!(_map->CanMove(randposX, randposY)));
-
-
+	if ( GameSystem::GetInstance()->IsKeyDown(VK_SPACE) && _map->CanPutBlock()&& true== _blockIndex.empty())
 	{
 		Block * block = new SelectBlock();
 		block->Init();
-		_map->SetBlock(block, randposX, randposY );
-		_blockSelect.push(block);
+		int randPositionX = rand() % _map->GetSizeX();
+		int randPositionY = rand() % _map->GetSizeY();
+
+		do
+		{
+			randPositionX = rand() % _map->GetSizeX();
+			randPositionY = rand() % _map->GetSizeY();
+		} while (! _map->CanMove(randPositionX, randPositionY));
+
+		_map->SetBlock(block, randPositionX, randPositionY);
+		 
+		_blockIndex.push(block);
+	}
+
+	if (!GameSystem::GetInstance()->IsKeyDown(VK_SPACE)&& false == _blockIndex.empty())
+	{
+		Block * block = _blockIndex.back();
+		_blockIndex.pop();
+		int changePosX = block->GetPosX();
+		int changePosY = block->GetPosY();
+		_map->ResetTile(block, changePosX, changePosY);
+		_map->DestoryTile(changePosX, changePosY);
+		delete block;
+
+		block = new GameBlock();
+		block->Init();
+
+		_map->SetBlock(block, changePosX, changePosY);
 	}
 
 }
+
+
 void  BlockManger::Render()
 {
 	_map->Render();

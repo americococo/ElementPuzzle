@@ -2,6 +2,7 @@
 class Sprite;
 class Block;
 #include <list>
+#include <queue>
 class TileCell
 {
 public:
@@ -26,12 +27,15 @@ private:
 	int _Height;
 
 
+private:
+	std::queue<Block*> _deleteBlock;
+
 public:
 	bool CanMove();
 
 
 public:
 	void SetBlock(Block * block);
-
+	void DestoryBlock();
 	void GetBlockList(std::list<Block*>& blockList);
 };

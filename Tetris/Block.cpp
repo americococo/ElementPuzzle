@@ -23,16 +23,16 @@ void Block::Init()
 	_Height = _BlockImg->GetHeight();
 	
 	_isMovableTile = false;
+
 }
 void Block::Update(float deltaTime)
 {
-//	_BlockImg->Update(deltaTime);
-
-	std::list<Block*> _blockList = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->FindBlock(this);
+	//std::list<Block*> _blockList = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->FindBlock(this);
 }
 
 void Block::SetPosition(int posX, int posY)
 {
+
 	_RealPostionX = _Width / 2 + (_Width*posX);
 	_RealPostionY = _Height / 2 + (_Height*posY);
 

@@ -78,6 +78,11 @@ void Map::ResetTile(Block *block, int posX, int posY)
 {
 	_tileList[posY][posX]->ReSetTile(block);
 }
+void Map::DestoryTile(int posX, int posY)
+{
+	_tileList[posY][posX]->DestoryBlock();
+}
+
 void Map::GetBlockList(std::list<Block*>& blockList, int posX, int posY)
 {
 	_tileList[posY][posX]->GetBlockList(blockList);

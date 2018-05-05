@@ -85,6 +85,8 @@ private:
 public:
 	bool IsKeyDown(unsigned int keycode);
 
-	unsigned int isInputKey();
-
+	bool isInputArrowLeft() { return (KEY_DOWN == _keystate[VK_LEFT]); }
+	bool isInputArrowRight() { return (KEY_DOWN==_keystate[VK_RIGHT]); }
+	bool isInputArrowUp() { return (KEY_DOWN== _keystate[VK_UP]); }
+	bool isInputArrowDown() { return (KEY_DOWN== _keystate[VK_DOWN]); }
 };

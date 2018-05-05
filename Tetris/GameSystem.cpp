@@ -50,15 +50,7 @@ bool GameSystem::IsKeyDown(unsigned int keycode)
 {
 	return (eKeyState::KEY_DOWN == _keystate[keycode]);
 }
-unsigned int GameSystem::isInputKey()
-{
-	for (int i = 0; i < 256; i++)
-	{
-		if (_keystate[i] == eKeyState::KEY_DOWN)
-			return i;
-	}
-	return NULL;
-}
+
 
 void GameSystem::InitInput()
 {

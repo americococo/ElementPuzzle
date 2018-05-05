@@ -34,4 +34,5 @@ public:
 
 
 	bool CanMove() { return _isMovableTile; }
+
 };

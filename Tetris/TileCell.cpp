@@ -11,7 +11,7 @@ TileCell::TileCell()
 		block->Init();
 		Tile.push_back(block);
 	}
-
+	
 }
 TileCell::~TileCell()
 {
@@ -28,17 +28,39 @@ void TileCell::Init(int posX, int posY)
 	{
 		(*itr)->SetPosition(_posX, _posY);
 	}
+	
 }
 void TileCell::ReSetTile(Block * block)
 {
-	Tile.remove(block);
+	_deleteBlock.push(block);
+}
+
+void TileCell::DestoryBlock()
+{
+	if (false == _deleteBlock.empty())
+	{
+		Tile.remove(_deleteBlock.back());
+		_deleteBlock.pop();
+
+	}
 }
 void TileCell::Update(float deltaTime)
 {
 	std::list<Block*>::iterator itr;
+
+	DestoryBlock();
+
 	for (itr = Tile.begin(); itr != Tile.end(); itr++)
 	{
-		(*itr)->Update(deltaTime);
+		(*itr)->Update(deltaTime); 
+	}
+}
+void TileCell::Render()
+{
+	std::list<Block*>::iterator itr;
+	for (itr = Tile.begin(); itr != Tile.end(); itr++)
+	{
+		(*itr)->Render();
 	}
 }
 
@@ -53,14 +75,6 @@ bool TileCell::CanMove()
 	return true;
 }
 
-void TileCell::Render()
-{
-	std::list<Block*>::iterator itr;
-	for (itr = Tile.begin(); itr != Tile.end(); itr++)
-	{
-		(*itr)->Render();
-	}
-}
 
 
 void TileCell::SetBlock(Block * block)
@@ -70,7 +84,6 @@ void TileCell::SetBlock(Block * block)
 }
 void TileCell::GetBlockList(std::list<Block*>& blockList) 
 {
-	
 	for (std::list<Block*>::iterator itr = Tile.begin(); itr != Tile.end(); itr++)
 	{
 		if (false == (*itr)->CanMove())
