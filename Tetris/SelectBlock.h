@@ -1,5 +1,6 @@
 #pragma once
 #include "Block.h"
+class Font;
 class SelectBlock : public Block
 {
 public:
@@ -13,6 +14,7 @@ public:
 	/*overriding*/ void Update(float deltaTime);
 	/*overriding*/ void Render();
 private:
+	Font * _font;
 
 };
 
