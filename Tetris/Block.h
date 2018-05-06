@@ -2,6 +2,12 @@
 
 class Sprite;
 
+enum eBlockType
+{
+	GAMEBLOCK,
+	NONEBLOCK,
+};
+
 class Block
 {
 public:
@@ -25,6 +31,10 @@ protected:
 	int _Height;
 
 	bool _isMovableTile;
+
+	eBlockType _blocktype;
+public:
+	eBlockType GetBlockType() { return _blocktype; }
 public:
 	Sprite * GetSprite() { return _BlockImg; }
 	void SetPosition(int positionX, int positionY);

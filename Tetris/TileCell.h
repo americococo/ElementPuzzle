@@ -1,6 +1,7 @@
 #pragma once
 class Sprite;
 class Block;
+class GameBlock;
 #include <list>
 #include <queue>
 class TileCell
@@ -37,5 +38,5 @@ public:
 public:
 	void SetBlock(Block * block);
 	void DestoryBlock();
-	void GetBlockList(std::list<Block*>& blockList);
+	void GetBlockList(std::list<GameBlock*>& blockList);
 };

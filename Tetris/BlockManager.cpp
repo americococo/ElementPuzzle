@@ -54,8 +54,9 @@ void BlockManger::Update(float deltaTime)
 
 		block = new GameBlock();
 		block->Init();
-
+		
 		_map->SetBlock(block, changePosX, changePosY);
+		((GameBlock*)(block))->Start();
 	}
 
 }
@@ -66,7 +67,7 @@ void  BlockManger::Render()
 	_map->Render();
 }
 
-std::list<Block*> BlockManger::FindBlock(Block * finder)
+std::list<GameBlock*> BlockManger::FindBlock(Block * finder)
 {
 	int MinTileX = finder->GetPosX() - 1;
 	int MaxTileX = finder->GetPosX() + 1;
@@ -77,17 +78,17 @@ std::list<Block*> BlockManger::FindBlock(Block * finder)
 	if (MinTileX < 0)
 		MinTileX = 0;
 
-	if (MaxTileX >= 10)
-		MaxTileX = 10 - 1;
+	if (MaxTileX >= _map->GetSizeX())
+		MaxTileX = _map->GetSizeX()-1;
 
 	if (MinTileY < 0)
 		MinTileY = 0;
 
-	if (MaxTileY >=10)
-		MaxTileY = 10-1;
+	if (MaxTileY >= _map->GetSizeY())
+		MaxTileY = _map->GetSizeY()-1;
 
 
-	std::list<Block*> _blockList;
+	std::list<GameBlock*> _blockList;
 	for (int y = MinTileY; y <= MaxTileY; y++)
 	{
 		for (int x = MinTileX; x <= MaxTileX; x++)

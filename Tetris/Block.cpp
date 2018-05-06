@@ -10,7 +10,10 @@
 
 #include <stdio.h>
 
-Block::Block() {}
+Block::Block() 
+{
+	_blocktype = eBlockType::NONEBLOCK;
+}
 Block::~Block() {}
 
 void Block::Init()

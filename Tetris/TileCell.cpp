@@ -3,7 +3,7 @@
 #include "Sprite.h"
 #include "Block.h"
 #include "BlankBlock.h"
-
+#include "GameBlock.h"
 TileCell::TileCell()
 {
 	{
@@ -82,13 +82,14 @@ void TileCell::SetBlock(Block * block)
 	block->SetPosition(_posX, _posY);
 	Tile.push_back(block);
 }
-void TileCell::GetBlockList(std::list<Block*>& blockList) 
+void TileCell::GetBlockList(std::list<GameBlock*>& blockList) 
 {
 	for (std::list<Block*>::iterator itr = Tile.begin(); itr != Tile.end(); itr++)
 	{
-		if (false == (*itr)->CanMove())
+		if (false == (*itr)->CanMove()&&(*itr)->GetBlockType() == eBlockType::GAMEBLOCK)
 		{
-			blockList.push_back(*itr);
+			GameBlock * block = (GameBlock*)(*itr);
+			blockList.push_back(block);
 		}
 	}
 }

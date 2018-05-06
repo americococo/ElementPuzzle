@@ -1,5 +1,6 @@
 #include "Map.h"
 #include "TileCell.h"
+#include "GameBlock.h"
 
 Map::Map()
 {
@@ -83,7 +84,7 @@ void Map::DestoryTile(int posX, int posY)
 	_tileList[posY][posX]->DestoryBlock();
 }
 
-void Map::GetBlockList(std::list<Block*>& blockList, int posX, int posY)
+void Map::GetBlockList(std::list<GameBlock*>& blockList, int posX, int posY)
 {
 	_tileList[posY][posX]->GetBlockList(blockList);
 }

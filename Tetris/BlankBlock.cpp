@@ -3,6 +3,7 @@
 
 BlanBlock::BlanBlock()
 {
+	_blocktype = eBlockType::NONEBLOCK;
 }
 
 BlanBlock::~BlanBlock()

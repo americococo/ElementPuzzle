@@ -36,7 +36,7 @@ private:
 
 
 public:
-	std::list<Block*> FindBlock(Block * finder);
+	std::list<GameBlock*> FindBlock(Block * finder);
 
 
 
