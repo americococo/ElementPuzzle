@@ -24,6 +24,10 @@ void GameBlock::Init()
 }
 void GameBlock::Start()
 {
+
+}
+void GameBlock::Update(float deltaTime)
+{
 	Map * map = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->GetMap();
 	BlockManger * blockManger = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager();
 	std::list<GameBlock*> blockList = blockManger->FindBlock(this);
@@ -33,15 +37,12 @@ void GameBlock::Start()
 		if (map->CanMove(_posx + 1, _posy))
 		{
 			map->ResetTile(this, _posx, _posy);
+			map->DestoryTile(_posx, _posy);
 			_posx += 1;
 			_posy += 0;
 			map->SetBlock(this, _posx, _posy);
 		}
 	}
-}
-void GameBlock::Update(float deltaTime)
-{
-
 
 
 }

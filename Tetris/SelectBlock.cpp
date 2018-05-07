@@ -51,6 +51,7 @@ void SelectBlock::Update(float deltaTime)
 	while (map->CanMove(posx + x, posy+ y))
 	{
 		map->ResetTile(this, posx, posy);
+		map->DestoryTile(posx, posy);
 		map->SetBlock(this, posx+x, posy+y);
 		posx += x;
 		posy += y;

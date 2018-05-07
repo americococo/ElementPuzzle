@@ -4,6 +4,8 @@
 #include "Block.h"
 #include "BlankBlock.h"
 #include "GameBlock.h"
+
+
 TileCell::TileCell()
 {
 	{
@@ -39,20 +41,25 @@ void TileCell::DestoryBlock()
 {
 	if (false == _deleteBlock.empty())
 	{
-		Tile.remove(_deleteBlock.back());
+		Tile.remove(_deleteBlock.back()); 
 		_deleteBlock.pop();
 
 	}
-}
+}                             
 void TileCell::Update(float deltaTime)
 {
 	std::list<Block*>::iterator itr;
 
-	DestoryBlock();
-
 	for (itr = Tile.begin(); itr != Tile.end(); itr++)
 	{
-		(*itr)->Update(deltaTime); 
+		int size = Tile.size();
+
+		(*itr)->Update(deltaTime);
+		
+		int ChangeSize = Tile.size();
+
+		if (size != ChangeSize)
+			return;
 	}
 }
 void TileCell::Render()
