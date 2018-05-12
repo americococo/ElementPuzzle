@@ -39,4 +39,6 @@ public:
 	void SetBlock(Block * block);
 	void DestoryBlock();
 	void GetBlockList(std::list<GameBlock*>& blockList);
+
+	void RemoveBlock(Block * block);
 };

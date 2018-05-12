@@ -126,6 +126,9 @@
     <ClCompile Include="GameBlock.cpp">
       <Filter>소스 파일\Game\Block\GameBlock</Filter>
     </ClCompile>
+    <ClCompile Include="BombBlock.cpp">
+      <Filter>소스 파일\Game\Block\GameBlock</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSystem.h">
@@ -177,6 +180,9 @@
       <Filter>소스 파일\Game\Block\SelectBlock</Filter>
     </ClInclude>
     <ClInclude Include="GameBlock.h">
+      <Filter>소스 파일\Game\Block\GameBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="BombBlock.h">
       <Filter>소스 파일\Game\Block\GameBlock</Filter>
     </ClInclude>
   </ItemGroup>

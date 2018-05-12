@@ -4,11 +4,11 @@
 #include <map>
 #include <queue>
 
-enum eGameBlockType;
+
 class Block;
 class Map;
 class GameBlock;
-
+class Font;
 class BlockManger
 {
 public:
@@ -36,9 +36,12 @@ private:
 
 
 public:
-	std::list<GameBlock*> FindBlock(Block * finder);
+	std::list<GameBlock*> FindBlock(Block * finder, int range);
 
 
+private:
+	int deleteblockcnt;
 
+	Font * _font;
 };
 

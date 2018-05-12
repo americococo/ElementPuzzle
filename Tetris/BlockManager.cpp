@@ -1,10 +1,13 @@
 #include "BlockManager.h"
 #include "GameSystem.h"
 #include "Block.h"
+#include "BombBlock.h"
 #include "SelectBlock.h"
 #include "GameBlock.h"
 
 #include "Map.h"
+
+#include "Font.h"
 
 BlockManger::BlockManger()
 {
@@ -18,12 +21,20 @@ void BlockManger::Init()
 {
 	_map = new Map();
 	_map->Init(15, 15);
+	deleteblockcnt = 0;
 	
+
+	D3DCOLOR color = D3DCOLOR_ARGB(255, 255, 255, 255);
+	_font = new Font(L"Arial", 50, color);
 }
 void BlockManger::Update(float deltaTime)
 {
 	_map->Update(deltaTime);
 	
+	WCHAR text[128];
+	wsprintf(text, L"¹ÐÁýµµ: %d %%", _map->Density());
+	_font->setText(text);
+
 	if ( GameSystem::GetInstance()->IsKeyDown(VK_SPACE) && _map->CanPutBlock()&& true== _blockIndex.empty())
 	{
 		Block * block = new SelectBlock();
@@ -52,7 +63,28 @@ void BlockManger::Update(float deltaTime)
 		_map->DestoryTile(changePosX, changePosY);
 		delete block;
 
-		block = new GameBlock();
+		deleteblockcnt++;
+
+		eGameBlockType type;
+		type = eGameBlockType::DefaultBlock;
+		if (deleteblockcnt == 10)
+		{
+			deleteblockcnt = 0;
+			type = eGameBlockType::BOMBBLOCK;
+		}
+
+
+		switch (type)
+		{
+		case DefaultBlock:
+			block = new GameBlock();
+			break;
+		case BOMBBLOCK:
+			block = new BombBlock();
+			break;
+
+		}
+
 		block->Init();
 		
 		_map->SetBlock(block, changePosX, changePosY);
@@ -65,15 +97,18 @@ void BlockManger::Update(float deltaTime)
 void  BlockManger::Render()
 {
 	_map->Render();
+	_font->SetAlia(DT_RIGHT | DT_BOTTOM);
+	_font->SetRect(0, GameSystem::GetInstance()->GetHeight() - 100, GameSystem::GetInstance()->GetWidth() , 100);
+	_font->render();
 }
 
-std::list<GameBlock*> BlockManger::FindBlock(Block * finder)
+std::list<GameBlock*> BlockManger::FindBlock(Block * finder,int range)
 {
-	int MinTileX = finder->GetPosX() - 1;
-	int MaxTileX = finder->GetPosX() + 1;
+	int MinTileX = finder->GetPosX() - range;
+	int MaxTileX = finder->GetPosX() + range;
 
-	int MinTileY = finder->GetPosY() - 1;
-	int MaxTileY = finder->GetPosY() + 1;
+	int MinTileY = finder->GetPosY() - range;
+	int MaxTileY = finder->GetPosY() + range;
 
 	if (MinTileX < 0)
 		MinTileX = 0;

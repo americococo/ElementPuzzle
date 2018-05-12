@@ -4,8 +4,9 @@
 enum eGameBlockType
 {
 	DefaultBlock,
-	
+	BOMBBLOCK	
 };
+
 
 class GameBlock : public Block
 {
@@ -17,10 +18,10 @@ public:
 
 
 	/*overriding*/ void Init();
-	void Start();
+	virtual void Start();
 	/*overriding*/ void Update(float deltaTime);
 	/*overriding*/ void Render();
-private:
-
+protected:
+	eGameBlockType _Gameblocktype;
 };
 

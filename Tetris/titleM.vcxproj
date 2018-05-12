@@ -152,6 +152,7 @@
     <ClCompile Include="BlankBlock.cpp" />
     <ClCompile Include="Block.cpp" />
     <ClCompile Include="BlockManager.cpp" />
+    <ClCompile Include="BombBlock.cpp" />
     <ClCompile Include="Font.cpp" />
     <ClCompile Include="GameBlock.cpp" />
     <ClCompile Include="GameScene.cpp" />
@@ -172,6 +173,7 @@
     <ClInclude Include="BlankBlock.h" />
     <ClInclude Include="Block.h" />
     <ClInclude Include="BlockManager.h" />
+    <ClInclude Include="BombBlock.h" />
     <ClInclude Include="Font.h" />
     <ClInclude Include="GameBlock.h" />
     <ClInclude Include="GameScene.h" />

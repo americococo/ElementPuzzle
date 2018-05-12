@@ -45,7 +45,12 @@ void TileCell::DestoryBlock()
 		_deleteBlock.pop();
 
 	}
-}                             
+}           
+
+void TileCell::RemoveBlock(Block * block)
+{
+	delete block;
+}
 void TileCell::Update(float deltaTime)
 {
 	std::list<Block*>::iterator itr;

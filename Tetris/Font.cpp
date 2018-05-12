@@ -10,10 +10,15 @@ Font::Font(std::wstring fontName, int size, D3DCOLOR color)
 	{
 		MessageBox(0, L"false", L"font Filed", MB_OK);
 	}
+	_pivot = DT_CENTER;
 }
 Font::~Font()
 {
 	RELEASE_COM(_dxFont);
+}
+void Font::SetAlia(unsigned int pivot)
+{
+	_pivot = pivot;
 }
 void Font::render()
 {
@@ -26,7 +31,7 @@ void Font::render()
 	D3DXMATRIX martrix;
 	D3DXMatrixTransformation2D(&martrix, NULL, 0.0f, NULL, NULL, 0.0f, NULL);
 	GameSystem::GetInstance()->getSprite()->SetTransform(&martrix);
-	_dxFont->DrawTextW(GameSystem::GetInstance()->getSprite(), _text.c_str(), -1, &rect, DT_CENTER, _color);
+	_dxFont->DrawTextW(GameSystem::GetInstance()->getSprite(), _text.c_str(), -1, &rect, _pivot, _color);
 }
 void Font::SetRect(int x, int y, int width, int height)
 {
@@ -34,7 +39,6 @@ void Font::SetRect(int x, int y, int width, int height)
 	_y = y;
 	_width = width;
 	_height = height;
-
 }
 void Font::setPosition(int x,int y)
 {

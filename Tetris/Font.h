@@ -11,6 +11,8 @@ private:
 	int _x, _y;
 	int _width, _height;
 
+	unsigned int _pivot;
+
 public:
 	Font(std::wstring fontName,int size , D3DCOLOR color);
 	~Font();
@@ -19,6 +21,7 @@ public:
 	void SetRect(int x,int y,int width,int height);
 	void setPosition(int x, int y);
 	void setText(std::wstring text);
-	
+	void SetAlia(unsigned int pivot);
+
 
 };

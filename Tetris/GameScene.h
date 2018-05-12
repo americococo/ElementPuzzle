@@ -5,6 +5,8 @@ class BlockManger;
 class Map;
 class Sprite;
 
+class Font;
+
 class GameScene :public Scene
 {
 public:
@@ -23,4 +25,12 @@ private:
 	BlockManger * _blockManager;
 public:
 	BlockManger * GetBlockManager() { return _blockManager; }
+
+
+private:
+	Font * _font;
+	int _score;
+
+public:
+	void GetScore(int score);
 };

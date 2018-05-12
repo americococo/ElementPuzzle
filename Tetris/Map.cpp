@@ -71,6 +71,23 @@ bool Map::CanPutBlock()
 	return false;
 }
 
+float Map::Density()
+{
+	float i = 0;
+	for (int y = 0; y < _sizeY; y++)
+	{
+		for (int x = 0; x < _sizeX; x++)
+		{
+			if (_tileList[y][x]->CanMove() == false)
+				i+=1;
+		}
+	}
+
+	float totoal = (_sizeX * _sizeY);
+
+	return totoal / i;
+}
+
 void Map::SetBlock(Block *block, int posX, int posY)
 {
 	_tileList[posY][posX]->SetBlock(block);
@@ -83,7 +100,10 @@ void Map::DestoryTile(int posX, int posY)
 {
 	_tileList[posY][posX]->DestoryBlock();
 }
-
+void Map::RemoveBlock(Block * block, int posX, int posY)
+{
+	_tileList[posY][posX]->RemoveBlock(block);
+}
 void Map::GetBlockList(std::list<GameBlock*>& blockList, int posX, int posY)
 {
 	_tileList[posY][posX]->GetBlockList(blockList);

@@ -35,5 +35,9 @@ public:
 	void ResetTile(Block *block, int posX, int posY);
 	void DestoryTile(int posX, int posY);
 	void GetBlockList(std::list<GameBlock*>& blockList,int posX,int posY);
+
+	void RemoveBlock(Block * block, int posX, int posY);
+
+	float Density();
 };
 

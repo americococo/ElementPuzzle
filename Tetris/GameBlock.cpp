@@ -9,6 +9,7 @@
 GameBlock::GameBlock() 
 {
 	_blocktype = eBlockType::GAMEBLOCK;
+	_Gameblocktype = eGameBlockType::DefaultBlock;
 }
 GameBlock::~GameBlock() {}
 void GameBlock::Init() 
@@ -28,9 +29,11 @@ void GameBlock::Start()
 }
 void GameBlock::Update(float deltaTime)
 {
-	Map * map = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->GetMap();
-	BlockManger * blockManger = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager();
-	std::list<GameBlock*> blockList = blockManger->FindBlock(this);
+	GameScene * scene = (GameScene*)SceneManager::GetInstance()->GetScene();
+	Map * map = scene->GetBlockManager()->GetMap();
+	BlockManger * blockManger = scene->GetBlockManager();
+
+	std::list<GameBlock*> blockList = blockManger->FindBlock(this,1);
 
 	if (blockList.size() == 2)
 	{
@@ -43,7 +46,6 @@ void GameBlock::Update(float deltaTime)
 			map->SetBlock(this, _posx, _posy);
 		}
 	}
-
 
 }
 void GameBlock::Render() 
