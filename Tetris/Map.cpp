@@ -71,21 +71,21 @@ bool Map::CanPutBlock()
 	return false;
 }
 
-float Map::Density()
+int Map::Density()
 {
-	float i = 0;
+	int i = 0;
 	for (int y = 0; y < _sizeY; y++)
 	{
 		for (int x = 0; x < _sizeX; x++)
 		{
 			if (_tileList[y][x]->CanMove() == false)
-				i+=1;
+				i++;
 		}
 	}
 
 	float totoal = (_sizeX * _sizeY);
 
-	return totoal / i;
+	return (i / totoal) * 100;
 }
 
 void Map::SetBlock(Block *block, int posX, int posY)

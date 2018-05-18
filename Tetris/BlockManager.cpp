@@ -31,8 +31,10 @@ void BlockManger::Update(float deltaTime)
 {
 	_map->Update(deltaTime);
 	
+	int density=  _map->Density();
+
 	WCHAR text[128];
-	wsprintf(text, L"밀집도: %d %%", _map->Density());
+	wsprintf(text, L"밀집도: %d %%", density);
 	_font->setText(text);
 
 	if ( GameSystem::GetInstance()->IsKeyDown(VK_SPACE) && _map->CanPutBlock()&& true== _blockIndex.empty())

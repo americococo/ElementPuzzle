@@ -38,6 +38,6 @@ public:
 
 	void RemoveBlock(Block * block, int posX, int posY);
 
-	float Density();
+	int Density();
 };
 
