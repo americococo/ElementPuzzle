@@ -22,6 +22,7 @@ void GameBlock::Init()
 
 	_isMovableTile = false;
 
+	_lifePoint = 1;
 }
 void GameBlock::Start()
 {
@@ -29,25 +30,24 @@ void GameBlock::Start()
 }
 void GameBlock::Update(float deltaTime)
 {
+	lifeCheck();
+}
+
+void GameBlock::lifeCheck()
+{
 	GameScene * scene = (GameScene*)SceneManager::GetInstance()->GetScene();
 	Map * map = scene->GetBlockManager()->GetMap();
-	BlockManger * blockManger = scene->GetBlockManager();
 
-	std::list<GameBlock*> blockList = blockManger->FindBlock(this,1);
-
-	if (blockList.size() == 2)
+	if (_lifePoint <= 0)
 	{
-		if (map->CanMove(_posx + 1, _posy))
-		{
-			map->ResetTile(this, _posx, _posy);
-			map->DestoryTile(_posx, _posy);
-			_posx += 1;
-			_posy += 0;
-			map->SetBlock(this, _posx, _posy);
-		}
-	}
+		map->ResetTile(this, this->GetPosX(), this->GetPosY());
+		map->DestoryTile(this->GetPosX(), this->GetPosY());
+		map->RemoveBlock(this, this->GetPosX(), this->GetPosY());
 
+		scene->GetScore(5);
+	}
 }
+
 void GameBlock::Render() 
 {
 	_BlockImg->render();

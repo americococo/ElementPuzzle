@@ -23,6 +23,7 @@ void BombBlock::Init()
 
 	_isMovableTile = false;
 
+	_lifePoint = 1;
 }
 void BombBlock::Start()
 {
@@ -31,23 +32,20 @@ void BombBlock::Start()
 }
 void BombBlock::Update(float deltaTime)
 {
-	GameScene * scene = (GameScene*)SceneManager::GetInstance()->GetScene();
-	Map * map = scene->GetBlockManager()->GetMap();
-	BlockManger * blockManger = scene->GetBlockManager();
 
-	std::list<GameBlock*> blockList = blockManger->FindBlock(this,2);
+	GameBlock::Update(deltaTime);
 
-	std::list<GameBlock*>::iterator itr;
+	Map * map = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->GetMap();
+	BlockManger * blockManger = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager();
+
+	std::list<GameBlock*> blockList = blockManger->FindBlock(this, 2);
 
 	if (blockList.size() >= 5)
 	{
-		for (itr = blockList.begin(); itr != blockList.end(); itr++)
+		for (std::list<GameBlock*>::iterator itr = blockList.begin(); itr != blockList.end(); itr++)
 		{
-			map->ResetTile((*itr), (*itr)->GetPosX(), (*itr)->GetPosY());
-			map->DestoryTile((*itr)->GetPosX(), (*itr)->GetPosY());
-			map->RemoveBlock((*itr), (*itr)->GetPosX(), (*itr)->GetPosY());
+			(*itr)->DecressLifePoint();
 
-			scene->GetScore(5);
 		}
 	}
 }

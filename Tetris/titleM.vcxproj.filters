@@ -70,6 +70,12 @@
     <Filter Include="소스 파일\Game\Block\GameBlock">
       <UniqueIdentifier>{dc75306f-3eec-4a1f-bdce-9483668e08c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Game\Block\GameBlock\Bomb">
+      <UniqueIdentifier>{3a198dd7-58c6-4489-b064-ba7fa2acd056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Block\GameBlock\ArrowMove">
+      <UniqueIdentifier>{947382e6-c87c-4c8a-a3ac-73ea4c5acfbb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -127,7 +133,10 @@
       <Filter>소스 파일\Game\Block\GameBlock</Filter>
     </ClCompile>
     <ClCompile Include="BombBlock.cpp">
-      <Filter>소스 파일\Game\Block\GameBlock</Filter>
+      <Filter>소스 파일\Game\Block\GameBlock\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowMove.cpp">
+      <Filter>소스 파일\Game\Block\GameBlock\ArrowMove</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -183,7 +192,10 @@
       <Filter>소스 파일\Game\Block\GameBlock</Filter>
     </ClInclude>
     <ClInclude Include="BombBlock.h">
-      <Filter>소스 파일\Game\Block\GameBlock</Filter>
+      <Filter>소스 파일\Game\Block\GameBlock\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowMove.h">
+      <Filter>소스 파일\Game\Block\GameBlock\ArrowMove</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

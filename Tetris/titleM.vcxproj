@@ -158,6 +158,7 @@
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="GameSystem.cpp" />
     <ClCompile Include="gameTimer.cpp" />
+    <ClCompile Include="ArrowMove.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
@@ -170,6 +171,7 @@
     <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrowMove.h" />
     <ClInclude Include="BlankBlock.h" />
     <ClInclude Include="Block.h" />
     <ClInclude Include="BlockManager.h" />

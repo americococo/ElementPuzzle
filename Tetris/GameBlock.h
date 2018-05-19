@@ -4,7 +4,8 @@
 enum eGameBlockType
 {
 	DefaultBlock,
-	BOMBBLOCK	
+	BOMBBLOCK,
+	ARROWMOVEBLOCK
 };
 
 
@@ -23,5 +24,16 @@ public:
 	/*overriding*/ void Render();
 protected:
 	eGameBlockType _Gameblocktype;
+
+	int _lifePoint;
+
+public:
+	void DecressLifePoint() { _lifePoint--; }
+
+	int GetLifePoint() { return _lifePoint; }
+
+
+public:
+	void lifeCheck();
 };
 

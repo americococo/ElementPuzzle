@@ -30,7 +30,7 @@ void Block::Init()
 }
 void Block::Update(float deltaTime)
 {
-	//std::list<Block*> _blockList = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->FindBlock(this);
+	
 }
 
 void Block::SetPosition(int posX, int posY)

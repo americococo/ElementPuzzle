@@ -4,7 +4,7 @@
 #include "BombBlock.h"
 #include "SelectBlock.h"
 #include "GameBlock.h"
-
+#include "ArrowMove.h"
 #include "Map.h"
 
 #include "Font.h"
@@ -21,7 +21,7 @@ void BlockManger::Init()
 {
 	_map = new Map();
 	_map->Init(15, 15);
-	deleteblockcnt = 0;
+	
 	
 
 	D3DCOLOR color = D3DCOLOR_ARGB(255, 255, 255, 255);
@@ -65,26 +65,20 @@ void BlockManger::Update(float deltaTime)
 		_map->DestoryTile(changePosX, changePosY);
 		delete block;
 
-		deleteblockcnt++;
+		int blockType = rand() % 3;
 
-		eGameBlockType type;
-		type = eGameBlockType::DefaultBlock;
-		if (deleteblockcnt == 10)
+
+
+		switch ((eGameBlockType)blockType)
 		{
-			deleteblockcnt = 0;
-			type = eGameBlockType::BOMBBLOCK;
-		}
-
-
-		switch (type)
-		{
-		case DefaultBlock:
+		case eGameBlockType::DefaultBlock:
 			block = new GameBlock();
 			break;
-		case BOMBBLOCK:
+		case eGameBlockType::BOMBBLOCK:
 			block = new BombBlock();
 			break;
-
+		case eGameBlockType::ARROWMOVEBLOCK:
+			block = new ArrowMoveBlock();
 		}
 
 		block->Init();

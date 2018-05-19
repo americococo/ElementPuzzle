@@ -40,7 +40,6 @@ public:
 
 
 private:
-	int deleteblockcnt;
 
 	Font * _font;
 };
