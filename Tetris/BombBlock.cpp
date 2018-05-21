@@ -32,15 +32,14 @@ void BombBlock::Start()
 }
 void BombBlock::Update(float deltaTime)
 {
-
 	GameBlock::Update(deltaTime);
 
 	Map * map = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->GetMap();
 	BlockManger * blockManger = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager();
 
-	std::list<GameBlock*> blockList = blockManger->FindBlock(this, 2);
+	std::list<GameBlock*> blockList = blockManger->FindBlock(this, 3);
 
-	if (blockList.size() >= 5)
+	if (blockList.size() >= 3)
 	{
 		for (std::list<GameBlock*>::iterator itr = blockList.begin(); itr != blockList.end(); itr++)
 		{

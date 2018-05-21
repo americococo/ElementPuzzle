@@ -76,6 +76,12 @@
     <Filter Include="소스 파일\Game\Block\GameBlock\ArrowMove">
       <UniqueIdentifier>{947382e6-c87c-4c8a-a3ac-73ea4c5acfbb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Game\Block\GameBlock\Teleport">
+      <UniqueIdentifier>{d1395c6f-9068-4c62-8ef7-c4bc0f43cbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game\Block\GameBlock\Rock">
+      <UniqueIdentifier>{fc07dbca-a68f-4522-96cd-474cdadcb881}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -138,6 +144,12 @@
     <ClCompile Include="ArrowMove.cpp">
       <Filter>소스 파일\Game\Block\GameBlock\ArrowMove</Filter>
     </ClCompile>
+    <ClCompile Include="TeleportBlock.cpp">
+      <Filter>소스 파일\Game\Block\GameBlock\Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="RockBlock.cpp">
+      <Filter>소스 파일\Game\Block\GameBlock\Rock</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameSystem.h">
@@ -196,6 +208,12 @@
     </ClInclude>
     <ClInclude Include="ArrowMove.h">
       <Filter>소스 파일\Game\Block\GameBlock\ArrowMove</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportBlock.h">
+      <Filter>소스 파일\Game\Block\GameBlock\Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="RockBlock.h">
+      <Filter>소스 파일\Game\Block\GameBlock\Rock</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

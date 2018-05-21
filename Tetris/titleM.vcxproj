@@ -162,10 +162,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="RockBlock.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="SelectBlock.cpp" />
     <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="TeleportBlock.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="TileCell.cpp" />
     <ClCompile Include="TitleScene.cpp" />
@@ -183,10 +185,12 @@
     <ClInclude Include="gameTimer.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="RockBlock.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="SelectBlock.h" />
     <ClInclude Include="Sprite.h" />
+    <ClInclude Include="TeleportBlock.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TileCell.h" />
     <ClInclude Include="TitleScene.h" />

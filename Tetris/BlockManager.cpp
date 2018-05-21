@@ -5,6 +5,8 @@
 #include "SelectBlock.h"
 #include "GameBlock.h"
 #include "ArrowMove.h"
+#include "TeleportBlock.h"
+#include "RockBlock.h"
 #include "Map.h"
 
 #include "Font.h"
@@ -65,9 +67,7 @@ void BlockManger::Update(float deltaTime)
 		_map->DestoryTile(changePosX, changePosY);
 		delete block;
 
-		int blockType = rand() % 3;
-
-
+		int blockType = rand() % eGameBlockType::NONE;
 
 		switch ((eGameBlockType)blockType)
 		{
@@ -79,10 +79,16 @@ void BlockManger::Update(float deltaTime)
 			break;
 		case eGameBlockType::ARROWMOVEBLOCK:
 			block = new ArrowMoveBlock();
+			break;
+		case eGameBlockType::TELEPORT:
+			block = new TeleportBlock();
+			break;
+		case eGameBlockType::ROCK:
+			block = new RockBlock();
+			break;
 		}
 
 		block->Init();
-		
 		_map->SetBlock(block, changePosX, changePosY);
 		((GameBlock*)(block))->Start();
 	}
@@ -122,10 +128,15 @@ std::list<GameBlock*> BlockManger::FindBlock(Block * finder,int range)
 	std::list<GameBlock*> _blockList;
 	for (int y = MinTileY; y <= MaxTileY; y++)
 	{
-		for (int x = MinTileX; x <= MaxTileX; x++)
-		{
-			_map->GetBlockList(_blockList, x, y);
-		}
+		_map->GetBlockList(_blockList, finder->GetPosX(), y);
 	}
+
+	for (int x = MinTileX; x <= MaxTileX; x++)
+	{
+		if (finder->GetPosX() == x)
+			continue;
+		_map->GetBlockList(_blockList, x, finder->GetPosY());
+	}
+
 	return _blockList;
 }

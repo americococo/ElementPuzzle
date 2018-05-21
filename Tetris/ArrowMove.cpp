@@ -14,7 +14,7 @@ ArrowMoveBlock::~ArrowMoveBlock() {}
 
 void ArrowMoveBlock::Init()
 {
-	_direction = (eDirection)(rand() %( eDirection::DOWN + 1));
+	_direction = (eDirection)(rand() %( eDirection::NONEDIRECTION));
 
 
 	switch (_direction)

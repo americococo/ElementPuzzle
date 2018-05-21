@@ -8,6 +8,7 @@ enum eDirection
 	RIGHT,
 	UP,
 	DOWN,
+	NONEDIRECTION,
 };
 
 class  ArrowMoveBlock : public GameBlock

@@ -5,7 +5,11 @@ enum eGameBlockType
 {
 	DefaultBlock,
 	BOMBBLOCK,
-	ARROWMOVEBLOCK
+	ARROWMOVEBLOCK,
+	TELEPORT,
+	ROCK,
+	NONE
+
 };
 
 
