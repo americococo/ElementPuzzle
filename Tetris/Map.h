@@ -39,5 +39,8 @@ public:
 	void RemoveBlock(Block * block, int posX, int posY);
 
 	int Density();
+
+
+	TileCell * GetTileCell(int posX,int posY);
 };
 

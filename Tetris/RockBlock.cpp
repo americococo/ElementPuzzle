@@ -31,11 +31,11 @@ void RockBlock::Start()
 
 	std::list<GameBlock*> blockList = blockManger->FindBlock(this, 1);
 
-	int MinTileX = _posx - 1;
-	int MaxTileX = _posx + 1;
+	int MinTileX = _posx - 3;
+	int MaxTileX = _posx + 3;
 
-	int MinTileY = _posy- 1;
-	int MaxTileY = _posy + 1;
+	int MinTileY = _posy- 3;
+	int MaxTileY = _posy + 3;
 
 	if (MinTileX < 0)
 		MinTileX = 0;

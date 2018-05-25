@@ -37,6 +37,15 @@ void BombBlock::Update(float deltaTime)
 	Map * map = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager()->GetMap();
 	BlockManger * blockManger = ((GameScene*)SceneManager::GetInstance()->GetScene())->GetBlockManager();
 
+	//queue
+	//questStart(탐색시작) =  map->GetTileCell(_posx, _posy);
+	//for(4Direction)
+	//position nextTilecell_postition = questStart->nextTilecell(direction);
+	//Tilecell *  nextTilecell = map->getTileCell(nextTilecell_postition )
+	//canmove? -> nextTilecell_postition  && questMark(검사했었음) ? -> nextTilecell
+	//queu.push(nextTilecell);
+	//
+
 	std::list<GameBlock*> blockList = blockManger->FindBlock(this, 3);
 
 	if (blockList.size() >= 3)

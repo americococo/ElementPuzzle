@@ -108,6 +108,12 @@ void Map::GetBlockList(std::list<GameBlock*>& blockList, int posX, int posY)
 {
 	_tileList[posY][posX]->GetBlockList(blockList);
 }
+
+TileCell * Map::GetTileCell(int posX,int posY)
+{
+	return	_tileList[posY][posX];
+}
+
 Map::~Map()
 {
 }
